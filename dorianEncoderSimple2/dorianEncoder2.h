@@ -4,14 +4,14 @@
 //used 10nf caps on both encoder pins
 //simply switch declared pins to change direction
 
-/* ENCODER DIAGRAM
+/* ENCODER PHASE DIAGRAM
   _v__  _v__
-  |  |  |  |
-__|  |__|  |__        v
- ____  ____       (stop detent)
- |  |  |  |           ^
-_|  |__|  |__       the encoder this was written for returns back to the same position each time.
-   ^     ^           in other words it steps through all 4 points in one rotation step.
+  |' |  |' |
+__|' |__|' |__        v
+ __'_  __'_       (stop detent)
+ | '|  | '|           ^
+_| '|__| '|__       the encoder this was written for returns back to the same position each time.
+   ^     ^           in other words it steps through all 4 points (phase combinations?) in one rotation step.
 */
 
 class Encoder {
