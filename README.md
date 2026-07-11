@@ -1,4 +1,11 @@
-<p style="font-family: "Lucida Console", "Courier New", monospace;>Simple arduino library for implementing basic aliexpress/amazon encoders.<br><br>
+
+<style>
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+</style>
+<p>Simple arduino library for implementing basic aliexpress/amazon encoders.<br><br>
 To use, place the dorianEncoderSimple2 folder into your arduino folder<br><br>
 10nf or similar capacitors are required on both encoder pins.<br><br>
 hardwaredebounce>softwaredebounce I will fight you on this.<br><br>
