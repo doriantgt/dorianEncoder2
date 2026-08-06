@@ -8,6 +8,8 @@
   // so the most annoying part is creating the interrupt routines
 #define ENC_A 2   //10nf CAPACITOR OR SIMILAR REQUIRED ON BOTH ENCODER PINS.
 #define ENC_B 1   //ESP32-S3  pullup 45kohm
+// VOLTAGE+ NOT REQUIRED ON ENCODER SUPPLIED INSTEAD BY PULLUP ON READ PINS
+
 Encoder encoder;
 
  static void IRAM_ATTR encAInterruptRoutine() { //intereupt for pinA and function for pinA
